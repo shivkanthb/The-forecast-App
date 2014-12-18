@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'https', '--save' ]
+2 info using npm@1.1.71
+3 info using node@v0.8.18
+4 verbose node symlink /usr/local/bin/node
+5 verbose read json /Users/shiv/Documents/NODE/forescastapp/package.json
+6 warn package.json forescastapp@0.0.0 No README.md file found!
+7 verbose read json /Users/shiv/Documents/NODE/forescastapp/node_modules/http/package.json
+8 verbose from cache /Users/shiv/Documents/NODE/forescastapp/package.json
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'https', null ]
+11 silly cache add name=undefined spec="https" args=["https",null]
+12 verbose parsed url { pathname: 'https', path: 'https', href: 'https' }
+13 silly lockFile c3437dbc-https https
+14 verbose lock https /Users/shiv/.npm/c3437dbc-https.lock
+15 silly lockFile c3437dbc-https https
+16 verbose addNamed [ 'https', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile 421d451a-https https@
+19 verbose lock https@ /Users/shiv/.npm/421d451a-https.lock
+20 silly addNameRange { name: 'https', range: '', hasData: false }
+21 verbose url raw https
+22 verbose url resolving [ 'https://registry.npmjs.org/', './https' ]
+23 verbose url resolved https://registry.npmjs.org/https
+24 info trying registry request attempt 1 at 09:09:53
+25 http GET https://registry.npmjs.org/https
+26 http 404 https://registry.npmjs.org/https
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Thu, 18 Dec 2014 16:09:54 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1418918993.773895,VS0,VE361',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 421d451a-https https@
+29 error 404 'https' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Darwin 14.0.0
+31 error command "node" "/usr/local/bin/npm" "install" "https" "--save"
+32 error cwd /Users/shiv/Documents/NODE/forescastapp
+33 error node -v v0.8.18
+34 error npm -v 1.1.71
+35 error code E404
+36 verbose exit [ 1, true ]
